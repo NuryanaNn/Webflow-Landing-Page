@@ -1,0 +1,308 @@
+body{
+    background: #000;
+    overflow-x: hidden;
+    color: #fff;
+    padding: 0 50px 0 50px;
+}
+
+/* Navbar */
+.nav-wrapper{
+    margin-top: 30px;
+}
+
+
+/* Header */
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.header .desc{
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+.header .desc h5{
+    text-transform: capitalize;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.header .desc h4{
+    color: blue;
+    font-weight: bold;
+}
+
+.header .desc p{
+    font-size: 1.5em;
+}
+
+.header .desc h3{
+    color: rgb(26, 189, 66);
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+
+.header span a, .description h5 span a{
+    font-size: 1.5em;
+    color: #fff ;
+    position: absolute;
+    margin-left :10px ;
+    margin-top: -3px;
+}
+
+.header .hero{
+    margin-top: 30px;
+}
+
+/* Description */
+.description{
+    margin-top: 100px;
+}
+
+.description h5{
+    color:rgb(192, 17, 17);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.description h4{
+    font-weight: bold;
+}
+
+.description p{
+    line-height: 30px;
+}
+
+.portfolio ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio{
+    margin-top: 30px;
+}
+
+.front{
+    z-index: 10;
+}
+
+.portfolio ul .hiden1{
+    margin-right: -300px;
+}
+
+.portfolio ul .hiden2{
+    margin-left: -300px;
+}
+
+/* Testimony */
+.testimony{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimony h1{
+    color: rgb(240, 17, 17);
+    font-size: 10em;
+    transform: rotate(40deg);
+}
+
+.testimony h5{
+    max-width: 500px;
+    margin-top: -70px;
+    font-size: 1.2em;
+}
+
+.testimony img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.testimony .comp{
+    color: rgb(240, 17, 17);
+    margin-top: -11px;
+}
+
+/* Burt */
+.descriptionBurt{
+    margin-top: 100px;
+}
+
+.descriptionBurt .burt, .descriptionGreen .burt{
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionBurt .hidden, .descriptionGreen .hidden{
+    position: absolute;
+    z-index: 1;
+}
+
+.burt .front img{
+    width: 400px;
+    height: 600px;
+}
+
+.descriptionGreen{
+    margin-top: 100px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list h4{
+    margin-left: 0px;
+}
+
+/* Fanbytes */
+.fanbytes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.fanbytes .front{
+    position: absolute;
+}
+
+.fanbytes .side{
+    position: absolute;
+}
+
+/* Montane */
+.montane img{
+    width: 400px;
+}
+
+/* Design */
+.design{
+    margin-top: 100px;
+}
+
+.design h5{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.design h4{
+    color: rgb(21, 199, 21);
+    font-weight: bold;
+}
+
+
+.design ul li ion-icon{
+    position: absolute;
+}
+
+.design ul li p{
+    margin-left: 30px;
+}
+
+.formes{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.footer h6{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.footer p{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+@media(min-width:992px){
+    .header{
+        max-width: 100%;
+    }
+
+    .header .desc{
+        position: relative;
+        color: #fff;
+        z-index: 10;
+        align-items: center;
+        text-align: left;
+    
+    }
+
+    .header .hero{
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .portfolio ul .hiden1{
+        margin-right: 1px;
+    }
+    
+    .portfolio ul .hiden2{
+        margin-left: 1px;
+    }
+
+
+    /* Description Burt */
+    .descriptionBurt .burt, .descriptionGreen .burt{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .descriptionBurt .hidden, .descriptionGreen .hidden{
+        position: relative;
+        z-index: 1;
+    }
+
+    .burt .front img{
+        width: 300px;
+        height: 600px;
+    }
+
+    .list h4{
+        margin-left: 90px;
+    }
+
+    .list h5{
+        margin-left: -90px;
+    }
+
+    /* Fanbytes */
+    .fanbytes .front{
+        position: relative;
+    }
+    
+    .fanbytes .side{
+        position: relative;
+    }
+
+    /* Montane */
+    .montane img{
+        width: 100%;
+    }
+
+    
+}
